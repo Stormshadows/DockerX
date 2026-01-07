@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Node.js dependencies (frontend)
+*node_modules/
+frontend/.next/    # If you use Next.js
+frontend/dist/     # Common build output
+frontend/build/    # For CRA, Vite
+frontend/.env      # If you have environment variables for webpack, react, etc.
+
+frontend/public/robots.txt
